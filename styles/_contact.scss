@@ -1,0 +1,40 @@
+.contact{
+        min-height: 100vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        flex-direction: column;
+        z-index: 2;
+    .contact__title{
+        font-family: "Gallery Modern";
+        font-family: normal;
+        color:#FFF;
+        font-size: clamp(6vw, 10vw, 7vw);
+        line-height: 7.4vw;
+        z-index: 4;
+        margin-bottom: 0;
+
+        span{
+            display: block;
+            font-family: inherit;
+
+        }
+
+        .contact__title-parent{
+            overflow: hidden;
+
+            
+        }
+    }
+    .contact__subtitle{
+        z-index: 1;
+        font-size: 1.3vw;
+        line-height: 2vw;
+        text-align: left;
+        letter-spacing: 0.3vw ;
+        transform: translateX(-13vw);
+        color: #FFF;
+    }
+}

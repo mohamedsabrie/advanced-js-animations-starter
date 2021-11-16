@@ -16,12 +16,17 @@ body {
 
 body {
   position: relative;
+  background-color: rgb(104, 116, 90);
 
 
 }
 .c-scrollbar_thumb {
-  display: none;
+  display: none ;
 }
+.scroll-container{
+  overflow-y:auto!important
+}
+
 
 * {
   box-sizing: border-box;

@@ -1,0 +1,50 @@
+.preloader{
+    height: 100vh;
+    width: 100vw;
+    background-color: #0e0e0e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: fixed;
+    z-index: 99;
+
+    .preloader__titles{
+        color:#FFF;
+        max-width: 1440px;
+        font-size: clamp(32px, 7vw, 11vw);
+        text-align: center;
+        position: absolute;
+
+        .preloader__title-container,
+        .preloader__title-container--last{
+            width: 100vw;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+
+            .preloader__title{
+                width: 100vw;
+                margin-top: 90px;
+
+            }
+            .preloadParent{
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                overflow: hidden;
+            }
+
+            .preloader__image{
+                height: 850px;
+                width: 50vw;
+                margin-bottom: -15vw;
+            }
+        }
+
+        
+    }
+
+
+}
